@@ -1,0 +1,188 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ a {
+    color: #333;
+    text-decoration: none;
+ }
+
+ body {
+    background: #fff;
+ }
+
+ .header {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+ }
+
+ .nav-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #333;
+ }
+
+ .nav-box .nav {
+    display: flex;
+    font-size: 16px;
+    color: #555;
+ }
+
+ .nav-box .nav li {
+    padding-left: 40px;
+ }
+
+ .nav-box .nav a.on,
+ .nav-box .nav a:hover {
+    color: #000;
+    padding-bottom: 10px;
+    border-bottom: 2px solid#333;
+ }
+
+ .banner {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../img/banner.jfif) no-repeat center center;
+    height: 312px;
+    text-align: center;
+    line-height: 312px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10 rgba(0, 0, 0, 0.3);
+ }
+
+ .introduce {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+ }
+
+ .introduce-tit {
+    line-height: 70px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #555;
+ }
+
+ .introduce-main {
+    display: flex;
+ }
+
+ .introduce-main .l {
+    margin-right: 60px;
+ }
+
+ .introduce .l img {
+    border-radius: 50%;
+ }
+
+ .introduce-main .r {
+    line-height: 40px;
+    font-size: 18px;
+    color: #555;
+ }
+
+ .edu-box {
+    display: flex;
+ }
+
+ .edu-box .r {
+    margin-left: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #555;
+ }
+
+ .edu-box .r .tit {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 20px;
+ }
+
+ .edu-box .r .time {
+    padding: 20px 5px;
+    height: 24px;
+    line-height: 24px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+ }
+
+ .skill {
+    width: 50%;
+ }
+
+ .skill .tit {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .progress {
+    width: 100%;
+    height: 7px;
+    border-radius: 7px;
+    background: #ddd;
+ }
+.progress-in{
+   position: absolute;
+   height: 7px;
+
+}
+ .foot-box {
+    width: 100%;
+    height: 100px;
+ }
+
+@media screen and (max-width:1199px) {
+   body{
+      min-width: 100%;
+   }
+   .nav-box{
+      width: 100%;
+   }
+   .nav-box span{
+      display: none;
+   }
+   .banner{
+      width: 100%;
+      height: 152px;
+      line-height: 152px;
+      font-size: 18px;
+   }
+   .introduce{
+      width: 100%;
+      margin: 0 auto;
+   }
+   .introduce .l img{
+      width: 120px;
+   }
+   .main-box{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 20px;
+   }
+}
